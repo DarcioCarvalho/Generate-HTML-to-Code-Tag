@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Html para Tag CODE</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+</head>
+
+<body>
+
+  <main>
+    <h1>Gerador de Html para <span class="accent">Tag Code<span></h1>
+
+    <article>
+      <textarea name="htmlCode" id="htmlCode" cols="60" rows="20" placeholder="Digite o código HTML aqui..."
+        oninput="generateTextToCodeTag()"></textarea>
+    </article>
+
+    <article>
+      <div class="resultHeader">
+        <h2>Código HTML gerado</h2>
+
+        <svg class="copyButton" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#B6ebff"
+          viewBox="0 0 256 256" onclick="copyToClipboard()">
+          <path
+            d="M216,32H88a8,8,0,0,0-8,8V80H40a8,8,0,0,0-8,8V216a8,8,0,0,0,8,8H168a8,8,0,0,0,8-8V176h40a8,8,0,0,0,8-8V40A8,8,0,0,0,216,32ZM160,208H48V96H160Zm48-48H176V88a8,8,0,0,0-8-8H96V48H208Z">
+          </path>
+          <title>Copiar para área de transferência</title>
+        </svg>
+
+      </div>
+      <textarea name="result" id="result" cols="60" rows="20" readonly></textarea>
+    </article>
+
+  </main>
+
+</body>
+
+</html>

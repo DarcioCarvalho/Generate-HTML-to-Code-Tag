@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  background: linear-gradient(157deg, rgb(4, 52, 77) 0%, rgba(0,118,171,1) 35%, rgba(117,222,255,1) 100%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  margin-inline: auto;
+  gap: 2.5rem;
+  padding: 2rem 3rem 4rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: #2ccfff 1px 0 10px;
+}
+
+.accent {
+  color: #ff27c2;
+  text-shadow: #b8006b 1px 0 10px;
+}
+
+.resultHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 98%;
+  margin-inline: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.resultHeader h2 {
+  font-size: 1rem;
+}
+
+.copyButton {
+  fill: #B6ebff;
+  transition: 1.2s;
+ }
+
+.copyButton:hover {
+  fill: #ff0ca6;
+  transform: skewY(10deg) scale(1.25);
+  cursor: pointer;
+ }
+
+article {
+  width: 80%;
+ }
+
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  resize: none;
+  outline: none;
+}
