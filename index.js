@@ -6,26 +6,23 @@ function generateTextToCodeTag() {
 
   const htmlCodeConvertedListed = htmlCodeConverted.split("\n");
 
-  const htmlCodeConvertedAndFormated = htmlCodeConvertedListed.map(line => {
+  const htmlCodeConvertedAndFormatted = htmlCodeConvertedListed.map(line => {
     if (line.trim() === "") {
       return line;
     }
     return `    ${line}`;
   }).join("\n");
 
-  console.log("htmlCodeConvertedAndFormated:", htmlCodeConvertedAndFormated);
-
-  const textGenerated = `<pre>\n  <code>\n${htmlCodeConvertedAndFormated}\n  </code>\n</pre>`;
+  const textGenerated = `<pre>\n  <code>\n${htmlCodeConvertedAndFormatted}\n  </code>\n</pre>`;
 
   resultTextArea.value = textGenerated;
-  console.log("htmlCode TextArea:", textGenerated);
 }
 
 function copyToClipboard() {
   const resultTextArea = document.querySelector("#result");
 
   if (!resultTextArea.value) {
-    alert("There isn't text to copy...");
+    alert("Não existe texto para copiar...");
     return;
   }
 
@@ -38,5 +35,5 @@ function copyToClipboard() {
     console.error('Unable to copy to clipboard', err);
   }
 
-  alert("Text copied to Clipboard!!!")
+  alert("Texto copiado na área de transferência!!!")
 }
