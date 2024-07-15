@@ -65,3 +65,20 @@ textarea {
   resize: none;
   outline: none;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #06354b;
+  padding-block: 1.75rem;
+  color: #effaff;
+}
+
+footer em {
+  color: #06bbf1;
+}
+
+footer strong {
+  color: #2ccfff;
+  text-shadow: #0078a7 1px 0 3px;
+}
