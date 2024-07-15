@@ -56,5 +56,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ---
 
 <p align="center">
-  Desenvolvido com 💙 by Dárcio Carvalho
+  Desenvolvido com 🤩 by Dárcio Carvalho
 </p>
