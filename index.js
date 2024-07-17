@@ -6,7 +6,13 @@ function generateTextToCodeTag() {
 
   const htmlCodeConvertedListed = htmlCodeConverted.split("\n");
 
+  const whiteSpaceInitial = String(htmlCodeConvertedListed[0]).indexOf("&lt;"); /* String.padStart(String(htmlCodeConvertedListed[0]).indexOf("<"), " ");  */
+
   const htmlCodeConvertedAndFormatted = htmlCodeConvertedListed.map(line => {
+    if (whiteSpaceInitial) {
+      line = String(line).substring(whiteSpaceInitial)
+    }
+
     if (line.trim() === "") {
       return line;
     }
