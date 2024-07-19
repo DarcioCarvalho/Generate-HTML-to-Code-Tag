@@ -26,7 +26,7 @@ A aplicação tem como objetivo criar um texto dentro de uma ***tag Code*** que 
 
 ### [ACESSE A APLICAÇÃO](https://darciocarvalho.github.io/Generate-HTML-to-Code-Tag/)
 
-##### 💡<i>(Para abrir a aplicação em uma nova aba clique com a tecla <b>CRTL</b> no Windons ou Linux ou a tecla <b>COMMAND</b> no MacOS)</i>
+##### 💡<i>(Para abrir a aplicação em uma nova aba clique com a tecla <b>CRTL</b> no Windows ou Linux ou a tecla <b>COMMAND</b> no MacOS)</i>
 
 <br>
 
