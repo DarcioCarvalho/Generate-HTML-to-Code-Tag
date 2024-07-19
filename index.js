@@ -19,7 +19,7 @@ function generateTextToCodeTag() {
     return `    ${line}`;
   }).join("\n");
 
-  const textGenerated = `<pre>\n  <code>\n${htmlCodeConvertedAndFormatted}\n  </code>\n</pre>`;
+  const textGenerated = !!htmlCodeConvertedAndFormatted.length ? `<pre>\n  <code>\n${htmlCodeConvertedAndFormatted}\n  </code>\n</pre>` : "";
 
   resultTextArea.value = textGenerated;
 }
