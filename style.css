@@ -84,3 +84,33 @@ footer strong {
   color: #2ccfff;
   text-shadow: #0078a7 1px 0 3px;
 }
+
+/* Responsividade */
+@media (max-width: 1024px) {
+  main {
+    width: 100vw;
+  }  
+}
+
+@media (max-width: 768px) {
+  article {
+    width: 90%;
+  }  
+}
+
+@media (max-width: 475px) {
+  main {
+    padding: 2rem 1.5rem;
+    gap: 1.5rem;
+  }
+
+  h1 {
+    font-size: 26px;
+  }  
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 22px;
+  }  
+}
