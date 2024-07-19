@@ -12,7 +12,6 @@ A aplicação tem como objetivo criar um texto dentro de uma ***tag Code*** que 
 
 ![Gerador de HTML para Tag Code](public/assets/screen.png)
 
-
 <br><br>
 
 ### ⚡ Funcionalidades:
@@ -26,6 +25,9 @@ A aplicação tem como objetivo criar um texto dentro de uma ***tag Code*** que 
 <br>
 
 [ACESSE A APLICAÇÃO](https://darciocarvalho.github.io/Generate-HTML-to-Code-Tag/)
+
+<br>
+<i style="display:inline-block;margin-top:-35px; font-size: 12px; color:#71717a">(Para abrir a aplicação em uma nova aba clique com a tecla <b>CRTL</b> no Windons ou Linux ou a tecla <b>COMMAND</b> no MacOS)</i>
 
 ## ✨ Tecnologia
 
