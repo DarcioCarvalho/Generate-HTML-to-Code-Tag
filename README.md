@@ -25,7 +25,7 @@ A aplicação tem como objetivo criar um texto dentro de uma ***tag Code*** que 
 <!-- - Aplicação Responsiva -->
 <br>
 
-<a href="https://darciocarvalho.github.io/Generate-HTML-to-Code-Tag/" target="_blank" rel="noopener noreferrer">ACESSE A APLICAÇÃO</a>
+[ACESSE A APLICAÇÃO] (https://darciocarvalho.github.io/Generate-HTML-to-Code-Tag/) {:target="_blank" rel="noopener"}
 
 ## ✨ Tecnologia
 
