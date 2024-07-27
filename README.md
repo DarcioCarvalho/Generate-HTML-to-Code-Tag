@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="DNC Soft Solutions - Gerador de HTML para Tag Code" src="public/assets/logo.png" />
+  <img alt="DNC Soft Solutions - Gerador de HTML para Tag Code" src=".github/logo.png" />
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 
 A aplicação tem como objetivo criar um texto dentro de uma ***tag Code*** que represente o código HTML fornecido pelo usuário, garantindo que esse conteúdo seja exibido corretamente como texto em qualquer página HTML, em vez de ser interpretado como um código HTML.
 
-![Gerador de HTML para Tag Code](public/assets/screen.png)
+![Gerador de HTML para Tag Code](.github/screen.png)
 
 <br><br>
 
